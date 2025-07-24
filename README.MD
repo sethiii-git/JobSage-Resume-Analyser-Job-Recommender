@@ -30,7 +30,7 @@
 ---
 
 ## 🗂 Project Structure
-
+```bash
 JobSage/
 │
 ├── api/
@@ -57,6 +57,7 @@ JobSage/
 ├── requirements.txt # Python dependencies
 ├── runtime.txt # Python runtime version
 
+```
 ---
 
 ## 🔧 Setup & Installation
