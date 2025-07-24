@@ -65,28 +65,32 @@ JobSage/
 ```bash
 git clone https://github.com/sethiii-git/jobsage.git
 cd jobsage
-
+```
 ### 2. Create a Virtual Environment
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate.ps1
-
+```
 ### 3. Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### 4. Setup Environment Variables
+
 Create a .env file in the root directory with:
 FLASK_API_URL=http://localhost:5000
 MONGO_URI=your_mongo_connection_string
 REMOTIVE_API_URL=https://remotive.io/api/remote-jobs
 
 ### 🚀 Run the Project
-Start Flask Backend
+```bash
+Start Flask Backend👇
 python main.py
 
-Start Streamlit Frontend
+Start Streamlit Frontend👇
 In a separate terminal:
 streamlit run app.py
-
 ```
 
 ---
@@ -128,7 +132,9 @@ Multi-resume analysis feature
 ## 👨‍💻 Author
 Machint Sethi
 Software Engineering @ DTU • Building Smart NLP + AI systems
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/machint-sethi-9573b6254/)  
+
 [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)](https://github.com/sethiii-git/)
 
 
