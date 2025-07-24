@@ -1,0 +1,32 @@
+# Backend
+Flask
+flask-cors
+gunicorn
+
+# Frontend
+streamlit
+
+# PDF & DOC Parsing
+PyPDF2
+python-docx
+docx2txt
+textract
+
+# NLP
+spacy
+nltk
+textstat
+
+# Database (MongoDB)
+pymongo
+dnspython
+
+# HTTP Requests
+requests
+
+# PDF Report Export
+pdfkit
+Jinja2
+
+# Environment Management
+python-dotenv
