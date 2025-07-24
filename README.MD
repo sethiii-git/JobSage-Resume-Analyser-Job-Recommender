@@ -132,6 +132,7 @@ Multi-resume analysis feature
 
 ## 👨‍💻 Author
 Machint Sethi
+
 Software Engineering @ DTU • Building Smart NLP + AI systems
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/machint-sethi-9573b6254/)  
