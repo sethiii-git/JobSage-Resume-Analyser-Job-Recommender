@@ -87,6 +87,8 @@ Start Streamlit Frontend
 In a separate terminal:
 streamlit run app.py
 
+```
+
 ---
 
 
