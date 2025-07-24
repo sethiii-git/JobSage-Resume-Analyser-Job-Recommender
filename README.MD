@@ -55,11 +55,7 @@ JobSage/
 ├── config.py # Global config (URLs, DB, etc.)
 ├── main.py # Flask backend server
 ├── requirements.txt # Python dependencies
-├── runtime.txt # Python runtime version (for Render/Heroku)
-
-yaml
-Copy
-Edit
+├── runtime.txt # Python runtime version
 
 ---
 
@@ -69,40 +65,29 @@ Edit
 ```bash
 git clone https://github.com/sethiii-git/jobsage.git
 cd jobsage
-2. Create a Virtual Environment
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-3. Install Dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-4. Setup Environment Variables
-Create a .env file in the root directory with:
 
-env
-Copy
-Edit
+### 2. Create a Virtual Environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate.ps1
+
+### 3. Install Dependencies
+pip install -r requirements.txt
+
+### 4. Setup Environment Variables
+Create a .env file in the root directory with:
 FLASK_API_URL=http://localhost:5000
 MONGO_URI=your_mongo_connection_string
 REMOTIVE_API_URL=https://remotive.io/api/remote-jobs
-🚀 Run the Project
+
+### 🚀 Run the Project
 Start Flask Backend
-bash
-Copy
-Edit
 python main.py
+
 Start Streamlit Frontend
 In a separate terminal:
-
-bash
-Copy
-Edit
 streamlit run app.py
-🧠 How It Works
+
+### 🧠 How It Works
 Upload your resume (PDF)
 
 The system extracts name, email, phone, skills, education, etc.
@@ -115,7 +100,7 @@ Lacking skills are suggested alongside relevant courses
 
 Matching job listings are fetched in real-time from Remotive API
 
-💡 Use Cases
+### 💡 Use Cases
 🧑‍🎓 Students/freshers preparing for placements
 
 👩‍💼 Professionals exploring job switches
@@ -124,7 +109,7 @@ Matching job listings are fetched in real-time from Remotive API
 
 🧠 Recruiters doing automated resume-job matching
 
-🛠 Future Enhancements
+### 🛠 Future Enhancements
 Integrate GPT or BERT for smarter NLP understanding
 
 Add PDF-based Resume Improvement Report (via Jinja2 + pdfkit)
@@ -135,7 +120,7 @@ Admin analytics for job & resume metrics
 
 Multi-resume analysis feature
 
-👨‍💻 Author
+### 👨‍💻 Author
 Machint Sethi
 Software Engineering @ DTU • Building Smart NLP + AI systems
 
