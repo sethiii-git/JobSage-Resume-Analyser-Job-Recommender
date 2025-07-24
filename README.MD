@@ -87,7 +87,10 @@ Start Streamlit Frontend
 In a separate terminal:
 streamlit run app.py
 
-### 🧠 How It Works
+---
+
+
+## 🧠 How It Works
 Upload your resume (PDF)
 
 The system extracts name, email, phone, skills, education, etc.
@@ -100,7 +103,7 @@ Lacking skills are suggested alongside relevant courses
 
 Matching job listings are fetched in real-time from Remotive API
 
-### 💡 Use Cases
+## 💡 Use Cases
 🧑‍🎓 Students/freshers preparing for placements
 
 👩‍💼 Professionals exploring job switches
@@ -109,7 +112,7 @@ Matching job listings are fetched in real-time from Remotive API
 
 🧠 Recruiters doing automated resume-job matching
 
-### 🛠 Future Enhancements
+## 🛠 Future Enhancements
 Integrate GPT or BERT for smarter NLP understanding
 
 Add PDF-based Resume Improvement Report (via Jinja2 + pdfkit)
@@ -120,8 +123,10 @@ Admin analytics for job & resume metrics
 
 Multi-resume analysis feature
 
-### 👨‍💻 Author
+## 👨‍💻 Author
 Machint Sethi
 Software Engineering @ DTU • Building Smart NLP + AI systems
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/machint-sethi-9573b6254/)  
+[![GitHub](https://img.shields.io/badge/GitHub-black?logo=github&logoColor=white)](https://github.com/sethiii-git/)
 
 
